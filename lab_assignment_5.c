@@ -7,7 +7,7 @@ typedef struct node {
 } node;
 
 // Returns number of nodes in the linkedList.
-int length(node* head)
+int length(node* head) 
 {
    struct node *tmp = head;
     int len = 0;
